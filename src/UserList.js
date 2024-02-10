@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import './userlist.css'
 import { Table, Button, Dropdown, DropdownButton, Modal, Form } from 'react-bootstrap';
 
 const UserList = () => {
@@ -148,7 +149,6 @@ const UserList = () => {
         </tbody>
       </Table>
 
-      
       <Modal show={showUpdateModal} onHide={handleCloseUpdateModal}>
         <Modal.Header closeButton>
           <Modal.Title>Update User</Modal.Title>
@@ -207,7 +207,6 @@ const UserList = () => {
         </Modal.Footer>
       </Modal>
 
-      
       <Modal show={showUserDetailsModal} onHide={handleCloseUserDetailsModal}>
         <Modal.Header closeButton>
           <Modal.Title>User Details</Modal.Title>
@@ -230,7 +229,6 @@ const UserList = () => {
         </Modal.Footer>
       </Modal>
 
-      
       <Modal show={showAddUserModal} onHide={handleCloseAddUserModal}>
         <Modal.Header closeButton>
           <Modal.Title>Create</Modal.Title>

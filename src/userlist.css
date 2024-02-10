@@ -1,0 +1,23 @@
+
+.table-container {
+    padding-top: 20px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+
+  .modal-footer {
+    justify-content: center;
+  }
+  
+ 
+  .modal-footer button {
+    margin: 0 5px;
+  }
+  
